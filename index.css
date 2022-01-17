@@ -1,14 +1,128 @@
+body {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(58, 58, 58);
+}
+
 #title {
-    font-size: 3rem;
-    text-align: center;
-    text-decoration: underline;
-    color: red;
-    margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+  margin-bottom: 2rem;
 }
-.trick-list {
-    margin-top: 1rem;
+.banner {
+  width: 1024px;
+  margin-bottom: 2rem;
 }
-.trick-list li {
-    font-size: 1.5rem;
-    font-weight: bold;
+
+.flip-trick-list {
+  margin-top: 1rem;
+  align-self: left;
+}
+.grind-trick-list {
+  margin-top: 1rem;
+}
+.flip-trick-list li {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
+.grind-trick-list li {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
+.flip-trick-list a {
+  width: 200px;
+}
+.grind-trick-list a {
+  width: 200px;
+}
+#title {
+  margin-bottom: 2rem;
+}
+.flip-trick-list {
+  color: rgb(255, 0, 0);
+}
+
+.grind-trick-list {
+  color: rgb(255, 0, 0);
+}
+
+hr {
+  border-top: 6px solid rgb(255, 0, 0);
+  opacity: 1;
+}
+
+#subtitle {
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.picture {
+  width: 500px;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.picture3 {
+  width: 550px;
+  margin-top: 2 rem;
+}
+
+.slide-trick-list li {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
+
+.slide-trick-list a {
+  width: 200px;
+}
+
+.picture2 {
+  width: 370px;
+}
+
+.picture4 {
+  width: 350px;
+  margin-top: 2 rem;
+}
+
+.section4 {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.grab-trick-list li {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
 }
